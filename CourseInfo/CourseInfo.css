@@ -1,0 +1,285 @@
+/* Header Section */
+.jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://www.brainstormindia.com/images/resources/web.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.jumbotron .breadcrumb {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Course Details Section */
+.course-details img {
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.course-details img:hover {
+    transform: scale(1.02);
+}
+
+.course-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.course-description {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.course-info {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.course-info li {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.course-info li::before {
+    content: "•";
+    color: #0056b3;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-right: 5px;
+}
+
+/* Sidebar Course Features Card */
+.course-features {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.course-features h3 {
+    font-weight: 700;
+    color: #0056b3;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.course-details-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.course-details-card:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+/* Image Styling */
+.course-details-card img {
+    border-radius: 10px;
+    max-height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.course-details-card img:hover {
+    transform: scale(1.02);
+}
+
+/* Course Title Styling */
+.course-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Course Description Styling */
+.course-description {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Course Info Styling */
+/* Course Info Styling */
+.course-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.info-icon {
+    font-size: 1.2rem;
+    color: #0056b3;
+    margin-right: 10px;
+}
+
+.info-item strong {
+    color: #333;
+    margin-right: 5px;
+}
+
+.info-item span {
+    font-weight: 500;
+    color: #0056b3;
+}
+
+
+.btn-primary:hover {
+    background-color: #004290;
+    transform: translateY(-3px);
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.3);
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #333;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+    transition: color 0.3s ease;
+}
+
+.feature-item i {
+    font-size: 1.4rem;
+    color: #0056b3;
+    margin-right: 12px;
+}
+
+.feature-item:last-child {
+    border-bottom: none;
+}
+
+.feature-item:hover {
+    color: #0056b3;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #0056b3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 86, 179, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+    background-color: #004290;
+    transform: translateY(-3px);
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.3);
+}
+
+/* General Button Styling */
+button {
+    cursor: pointer;
+}
+
+/* Course Features List */
+.course-features-list {
+    padding: 0;
+    margin: 0;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.feature-item:hover {
+    background-color: #e9ecef;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    font-size: 1.5rem;
+    color: #0056b3;
+    margin-right: 15px;
+    width: 30px; /* Consistent icon width */
+    text-align: center;
+}
+
+.feature-text {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .course-title {
+        font-size: 1.8rem;
+    }
+}

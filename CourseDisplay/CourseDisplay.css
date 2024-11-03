@@ -1,0 +1,113 @@
+/* Search Input */
+input[type="text"] {
+    width: 50%;
+    padding: 12px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+/* Card Styling */
+.card {
+    transition: all 0.3s ease-in-out;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.card:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+}
+
+/* Card Header */
+.card-header {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 15px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Course Image */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+/* Card Body */
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Card Title */
+.card-title {
+    margin-bottom: 10px;
+    color: #0056b3;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Card Text */
+.card-text {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn-info {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+    margin-right: 5px;
+}
+
+.btn-info:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    color: #fff;
+}
+
+/* Responsive Columns */
+@media (max-width: 768px) {
+    input[type="text"] {
+        width: 80%;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
